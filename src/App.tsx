@@ -13,7 +13,7 @@ const App: React.FC = () => {
       <Navbar />
       <div className="container">
         <Switch>
-          <Route component={TodoPage} path='/React-projects' exact />
+          <Route component={TodoPage} path='/React-projects/' />
           <Route component={AboutPage} path='/about' />
         </Switch>
       </div>
