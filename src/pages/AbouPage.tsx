@@ -6,7 +6,7 @@ export const AboutPage: React.FC = () => {
     return (
         <>
             <h1>Information Page</h1>
-            <button className='btn' onClick={() => history.push('/')}>
+            <button className='btn' onClick={() => history.push('/react-io')}>
                 Обратно к списку дел
             </button>
         </>
